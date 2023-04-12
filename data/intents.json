@@ -1,0 +1,61 @@
+{
+    "intents": [
+        {
+            "tag": "welcome",
+            "patterns": [
+                "oi",
+                "oie",
+                "olá",
+                "bom dia",
+                "boa tarde",
+                "boa noite"
+            ],
+            "responses": [
+                "Olá, eu sou a assistente virtual Luna da Rover Solutions, qual é seu nome?"
+            ],
+            "context": [
+                "welcome"
+            ]
+        },
+        {
+            "tag": "what_do_you_do",
+            "patterns": [
+                "o que você faz?",
+                "o que você responde?",
+                "opções",
+                "ações"
+            ],
+            "responses": [
+                "Sou capaz de solicitar orçamentos, acompanhar serviços, agendar eventos e apresentar a Rover Solutions!"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "what_is_the_rover",
+            "patterns": [
+                "o que é a rover?",
+                "o que é a rover solutions?",
+                "rover?",
+                "rover solutions?"
+            ],
+            "responses": [
+                "Startup de propósito geral com atuação no mercado de Inteligência Artificial e Ciência de Dados."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "anything_else",
+            "patterns": [],
+            "responses": [
+                "Desculpa, não entendi o que você falou, tente novamente!"
+            ],
+            "context": [
+                ""
+            ]
+        }
+    ]
+}
